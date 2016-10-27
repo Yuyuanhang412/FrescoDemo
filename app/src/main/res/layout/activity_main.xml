@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.bwie.frescodemo.MainActivity">
+
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/user_avator"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        fresco:roundTopLeft="true"
+        fresco:roundTopRight="false"
+        fresco:roundBottomLeft="false"
+        fresco:roundBottomRight="true"
+        fresco:roundedCornerRadius="180dp"
+        fresco:roundWithOverlayColor="#ff0"
+        fresco:roundingBorderWidth="10dp"
+        fresco:roundingBorderColor="#0f0"
+        fresco:actualImageScaleType="focusCrop"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>
